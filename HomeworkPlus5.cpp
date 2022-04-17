@@ -42,32 +42,6 @@ void ArrayConstruct(int arr[], int n)
     }
 }
 
-//void MoveNumbers(int arr[], int size, int n)
-//{
-//    for (int i = 0; i < size; i++) 
-//
-//    {
-//        
-//        if (n > 0 && i + n < size)
-//        {
-//            int buff = arr[i + n];
-//            arr[i + n] = arr[i];
-//            arr[i + n + 1] = buff;
-//        }
-//
-//        else if (i+n >= size-1)
-//        {
-//            break;
-//        }
-//
-//        else if (n < 0)
-//        {
-//            arr[(size - 1) + n] = arr[size - 1];
-//        }
-//
-//    }
-//    
-//}
 
 //Если я правильно понял и нужно именно вернуть булево значение
 bool BalanceCheck(int arr[],int size, int sum)
